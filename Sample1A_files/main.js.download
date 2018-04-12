@@ -1,0 +1,4 @@
+/*! updated; 04-10-2018 03:45 PM **/
+
+
+Modulr.define("core.templates:main",["require"],function(require){window._tpl_frame&&require(["controls/frame"])});
