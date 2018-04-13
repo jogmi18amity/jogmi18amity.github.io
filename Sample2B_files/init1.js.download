@@ -1,0 +1,20 @@
+//<script>
+bouncex.state = {"newvid":false,"iol":false,"tn":1523622191,"pvid":2,"rc":false,"mobile":false,"vip":"64.251.48.66","geo":{"country_code":"US","country_code3":"USA","country_name":"United States","region":"CT","city":"Woodbridge","postal_code":"06525","latitude":41.353,"longitude":-73.0018,"area_code":203,"dma_code":533,"metro_code":533,"continent_code":"NA","zip":"06525","country":"US","region_name":"Connecticut"}};
+bouncex.cookie = {"v":{"completed_signup":false},"sid":4,"fvt":1504390333,"vid":1523621077878436,"ao":25,"lp":"https%3A%2F%2Fwww.cnn.com%2Farticles","as":0,"vpv":2,"d":"d","r":"www.google.com","cvt":1523621077,"gcr":47,"m":0,"did":"489265314140673693","lvt":1523622191,"campaigns":{"587354":{"lvt":1507682074,"lavid":1},"603811":{"lvt":1513573963,"lavid":1,"la":1513573783,"fsa":1512177612,"as":3,"ao":16},"636392":{"lvt":1512884623,"lavid":1,"la":1512884619,"fsa":1512182616,"as":1,"ao":3},"655004":{"lvt":1520301645,"lavid":1,"la":1520301626,"fsa":1514332559,"as":1,"ao":39},"661555":{"lvt":1516837951,"lavid":1,"la":1516837950,"fsa":1514669929,"as":1,"ao":4},"661579":{"lvt":1519943621,"lavid":1,"la":1516662613,"fsa":1515563659,"as":0,"ao":2},"661594":{"lvt":1519938155,"lavid":1,"la":1519938154,"fsa":1518052309,"as":1,"ao":2},"661610":{"lvt":1518820116,"lavid":1,"la":1518820116,"fsa":1516735042,"as":1,"ao":4}}};
+bouncex.brandStyles = false;
+bouncex.webfonts = false;
+bouncex.campaigns = false;
+bouncex.gbi.stacks = false;
+bouncex.debug = false;
+bouncex.testmode = {"bxtest":false,"office":false,"bxdev":false};
+
+
+bouncex.tryCatch(function(){
+	if(bouncex.browser.msie){
+		bouncex.setTimeout2(function(){
+			bouncex.init();
+		}, 0);
+	} else {
+		bouncex.init();
+	}
+})();
